@@ -1,4 +1,5 @@
 # Crown Installation Guide.
+### Script works with most popular x64 and x32 operating systems
 
 The Crown development team created a useful script to help everyone easily install a Crown client on their VPS server.
 
