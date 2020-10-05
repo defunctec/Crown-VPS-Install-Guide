@@ -1,4 +1,4 @@
-### Crown installation guide.
+# Crown Installation Guide.
 
 The Crown development team created a useful script to help everyone easily install a Crown client on their VPS server.
 
@@ -38,7 +38,7 @@ Save and exit crown.conf.
 
 ## Expanding on the Crown install script
 
-Within the script code we find extra functionality for the script
+Within the script code we find extra functionality for us to utilise
 ```
   -m, --masternode           create a masternode
   -s, --systemnode           create a systemnode
@@ -72,7 +72,7 @@ This adds the bootstrap and watchdog script.
 
 ## Systemnodes
 
-To install a Masternode, use this command
+To install a Systemnode, use this command
 ```
 sudo apt-get install curl -y && curl -s https://raw.githubusercontent.com/Crowndev/crowncoin/master/scripts/crown-server-install.sh | bash -s -- -s -p PLACE-YOUR-SYSTEMNODE-GENKEY-HERE
 ```
